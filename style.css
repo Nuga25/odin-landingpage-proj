@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    width: 100%;
+}
+
+.header {
+    height: 70px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+li>a {
+    text-decoration: none;
+    color: #609dff;
+    font-size: 18px;
+}
+
+.logo {
+    color: #609dff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container1 {
+    background-color: #1f2937;
+    padding: 40px 80px;
+    display: flex;
+    height: 480px;
+}
+
+.container1-sub1 {
+    flex: 50%;
+    margin-top: 30px;
+}
+
+.container1-sub2 {
+    flex: 50%;
+    margin-top: 30px;
+}
+
+.container1-sub1>h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 0px 20px;
+}
+
+.container1-sub1>p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 5px 100px 5px 20px;
+}
+
+.container1-sub1>button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 15px;
+    margin: 10px 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.container1-sub2 {
+    margin-top: 10px;
+}
+
+.container1-sub2>img {
+    padding: 0 100px;
+    width: 113%;
+    height: auto;
+}
+
+.container2 {
+    padding: 50px 200px;
+}
+
+.container2>h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.img-container>.img {
+    width: 200px;
+}
+
+.img-container>.img>img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.img-container>.img>p {
+    color: #1f2937;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    height: 250px;
+    padding: 80px 250px 50px 250px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #1f2937;
+    align-items: center;
+}
+
+.thor {
+    float: right;
+    padding: 15px 0;
+}
+
+.container4 {
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.container4-sub {
+    width: 80%;
+    background-color: #3882f6;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.container4-box1 {
+    flex: 60%;
+}
+
+.container4-box2 {
+    flex-direction: 40%;
+}
+
+.container4-box2>button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container4-box1>.cta {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 5px 0;
+}
+
+.footer {
+    height: 50px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
